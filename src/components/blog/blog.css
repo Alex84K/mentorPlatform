@@ -1,0 +1,136 @@
+.blog_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchcastom {
+    /* border: 1px solid #003B69;*/
+    height: 25px;
+}
+
+.radR {
+    border-radius: 50%;
+}
+
+.txt_blog {
+    display: contents;
+}
+
+.text-green_blog {
+    color: #00d6ab;
+}
+
+.btn_cast {
+    height: 35px;
+    width: 180px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: #003B69;
+    color: #fff;
+}
+
+.line-blye {
+    width: 100%;
+    border-top: 3px solid #003B69;
+}
+
+.imgblogBig {
+    max-width: 240px;
+    max-height: 240px;
+}
+
+
+
+.readBlog {
+    cursor: pointer;
+}
+
+.blockInpBlog input {
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #003B69;
+    background: #FFF;
+}
+
+.txtblog {
+    width: 100%;
+}
+
+.fotoBottonBlog {
+    border-radius: 5px;
+    background-color: #18AD90;
+    width: 220px;
+    height: 56px;
+    padding: 12px 40px 20px 40px;
+    color: #FFF;
+    text-align: center;
+}
+
+.publishButton {
+    width: 254px;
+    height: 64px;
+    padding: 22px 0px 22px 0px;
+    border: 1px solid #003B69;
+    border-radius: 3px;
+    background: #003B69;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+
+    .contBlog1,
+    .blog_row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .txt_blog {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .blog_row h1 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .blog_row button {
+        margin-bottom: 25px;
+    }
+
+    .container_blog_cast {
+        width: 100%;
+    }
+
+    .inputBoxSmallBlog {
+        margin: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .imgblogBigSelf {
+        max-width: 270px;
+    }
+
+    .pMobi {
+        font-size: 10px;
+    }
+
+    .blockInpBlog input {
+        height: 40px;
+    }
+
+    .fotoBottonBlog {
+        height: 40px;
+        font-size: 12px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,77 @@
+.bg_color_blye {
+  background: #003B69;
+}
+
+.bg_color_fff {
+  background: #fff;
+}
+
+.bg_color_green {
+  background: #18AD90;
+}
+
+.text-green {
+  color: #18AD90;
+}
+
+.text-fff {
+  color: #fff;
+}
+
+.text-blye {
+  color: #003B69;
+}
+
+.border_blue_big {
+  border: 2px solid #003B69;
+  border-radius: 5px;
+}
+
+.btn_green {
+  background-color: #18AD90;
+  color: #fff;
+}
+
+.m0auto {
+  margin: 0 auto;
+}
+.p0auto {
+  padding: 0 auto;
+}
+
+.button_fff {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #18AD90;
+  margin: 0 auto;
+  max-width: 150px;
+}
+
+.h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.h_3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 760px) {
+  .footerContent {
+    flex-direction: column;
+  }
+
+  .logofff {
+    max-width: 120px;
+    margin: 20px auto 0 auto;
+  }
+
+  .pFooter, .mailFooter {
+    text-align: center;
+  }
+}

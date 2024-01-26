@@ -1,0 +1,17 @@
+.cartDonatBlock {
+    background-color: #E4E4E4;
+}
+
+.qrcode {
+    max-width: 210px;
+    max-height: 210px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .qrcode {
+        max-width: 190px;
+        max-height: 190px;
+    }
+}

@@ -1,0 +1,32 @@
+.buttn_green {
+    border-radius: 5px;
+    border:1px solid #18AD90;
+    background: #18AD90;
+    height: 56px;
+    width: 200px;
+    color: #fff;
+}
+
+.imgTeachBig {
+    height: 350px;
+    border: 1px solid #003B69;
+    border-radius: 3px;
+    background-size: cover;
+}
+
+.iconContakt {
+    height: 20px;
+    width: 20px;
+}
+
+.dR p {
+    color: #003B69;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bg_cast {
+    background: #F9F9F9;
+}

@@ -1,0 +1,82 @@
+.home .container {
+    margin: 0 auto;
+}
+
+.imgMain {
+    max-height: 460px;
+    max-width: 282px;
+}
+
+.planBox {
+    /*max-height: 280px;*/
+    max-width: 310px;
+    border-radius: 3px;
+    border: 1px solid #003B69;
+    margin-bottom: 50px;
+}
+
+.mainPlanBox {
+    margin: 0 auto;
+}
+
+.mainPlanBox div {
+    margin: 0 auto;
+}
+
+.tbMain {
+    overflow: hidden;
+    height: 530px;
+}
+
+.h3cartName {
+    cursor: pointer;
+}
+
+.donatContainer {
+    background-color: #18AD90;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.donatButton {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.submitButton {
+    padding: 13px 18px 13px 18px;
+    border: 1px solid #003B69;
+    background-color: #003B69;
+    color: #fff;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 760px) {
+    .imgMain {
+        display: none;
+    }
+
+    .home p,
+    .home h1 {
+        text-align: center;
+    }
+
+    .pDonat {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0;
+        margin: 0;
+    }
+
+    .donatContainer {
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+    }
+
+    .theacherCart {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+}

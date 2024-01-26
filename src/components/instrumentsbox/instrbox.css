@@ -1,0 +1,75 @@
+.toolsBox {
+    margin: 0 auto;
+}
+
+.instr {
+    border: 1px solid #003b69;
+    border-radius: 30px;
+    padding: auto;
+    margin: 0 8px 15px 8px;
+}
+
+.pInstr {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.theacherCart {
+    border: 1px solid #003B69;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+/*height-------!!!!!!!!*/
+/*.theacherCarts {
+    height: 27em;
+    overflow: hidden;
+}*/
+
+.fotoCartSmall {
+    width: 100px;
+    height: 110px;
+  }
+  
+  .h3cartName {
+    color: #003B69;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .pExpiriens {
+    color: #18AD90;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .spanCartData {
+    color: #003B69;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .btn-blay {
+    background-color: #003b69;
+    color: #fff;
+  }
+
+  .instr {
+    height: 35px;
+    border: 1px solid #003b69;
+    border-radius: 18px;
+    padding: auto;
+    margin: 0 8px 15px 8px;
+  }
+
+  .pInstr {
+    text-align: center;
+    margin-bottom: 3px;
+    margin-top: 0;
+  } 
