@@ -23,9 +23,9 @@ function Home() {
         window.location.assign('http://localhost:3000/donat');
     }
 
-    function seeAll(event) {
-        window.location.assign('http://localhost:3000/teacher');
-    }
+    //function seeAll(event) {
+      //  window.location.assign('http://localhost:3000/teacher');
+    //}
 
     return (
 
@@ -78,9 +78,9 @@ function Home() {
                 <div className='tbMain'>
                     <TeacherBox />
                 </div>
-                <div className="row justify-content-center ">
+                {/*<div className="row justify-content-center ">
                     <button type="button" onClick={seeAll} className="btn btn-blay w-25 mt-4 border border-2">See all</button>
-                </div>
+    </div>*/}
             </section>
 
             <section className='container mt-5 '>
